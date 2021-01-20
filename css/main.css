@@ -1,0 +1,172 @@
+@media only screen and (max-width: 2560px){
+
+.brand{
+  font-size: 20px;
+  text-align: center;
+}
+.fragrance{
+  font-size: 35px;
+  color: #2E8B57;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.category{
+  font-size: 25px;
+  color: #2E8B57;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.card-img{
+  max-width: 200px;
+  height: 250px;
+  margin-bottom: 10px;
+  }
+
+.card-text{
+  font-size: 10px;
+  }
+
+.card{
+  overflow: auto;
+  height: 600px;
+  }
+.note_placement{
+    margin-bottom: 0px;
+        }
+.notes{
+  display: inline;
+      }
+
+.container {
+  margin-top: 20px;
+}
+input{
+  text-align: center;
+  color: red;
+}
+.info{
+  margin-top: 20%;
+  font-size: 30px;
+  text-align: center;
+}
+#file-ip-1-preview
+  {
+    width: 300px;
+  }
+.image{
+max-width: 250px;
+height: 250px;
+  }
+.container-menu:hover{
+  transform: scale(1.1);
+  opacity: 1;
+  transition: 0.5s;
+
+}
+
+.container-menu{
+  margin: 30px;
+  background-color: #1e273a;;
+  opacity: 0.8;
+  color: white;
+  padding:5px;
+
+}
+.text{
+  border: none;
+  color: white;
+  padding:24px;
+}
+.navbar{
+  padding: 30px;
+}
+.loader{
+  height: 50px;
+  width:50px;
+}
+}
+
+@media only screen and (max-width: 768px){
+  .brand{
+    font-size: 15px;
+  }
+  .fragrance{
+    font-size: 25px;
+  }
+  .category{
+    font-size: 20px;
+  }
+  .table{
+    font-size: 15px;
+  }
+  .search{
+    margin-top: 7px;
+  }
+  .container-menu{
+    margin: 30px;
+    background-color: #1e273a;;
+    opacity: 1;
+    color: white;
+    padding:5px;
+  }
+  .loader{
+    height: 30px;
+    width:30px;
+  }
+}
+
+
+@media only screen and (max-width: 425px){
+  .brand{
+    font-size: 15px;
+  }
+  .fragrance{
+    font-size: 20px;
+
+  }
+  .category{
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  .table{
+    margin-top: -10px;
+  }
+  .card{
+    overflow: auto;
+    height: 410px;
+    }
+  .row1{
+    overflow: scroll;
+    display: inline-block;
+  }
+  .card h5{
+    font-size: 15px;
+        }
+  .notes{
+  font-size: 10px;
+  display: inline;
+      }
+  .card-img{
+    max-width: 100px;
+    height: auto;
+    }
+#file-ip-1-preview
+  {
+    width: 150px;
+  }
+  .container-menu{
+    margin: 30px;
+    background-color: #1e273a;;
+    opacity: 1;
+    color: white;
+    padding:5px;
+  }
+  .loader{
+    height: 15px;
+    width:15px;
+  }
+
+}
